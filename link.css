@@ -1,0 +1,74 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+header {
+  display: flex;
+  height: 80px;
+  padding: 0px 20px 0px 50px;
+  justify-content: space-between;
+  background-color: rgb(214, 214, 214);
+  align-items: center;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.click {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 70px;
+}
+
+/* main  */
+section {
+  display: flex;
+}
+img {
+  width: 330px;
+  height: 200px;
+  
+}
+.animelar {
+  width: 330px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.anime {
+  display: grid;
+  grid-gap: 10px;
+  margin-left: 5px;
+}
+main section {
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 50px;
+}
+.maina {
+  text-align: center;
+  align-content: center;
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 5px 0px 0px 80px;
+}
